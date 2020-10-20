@@ -22,13 +22,20 @@ a {
     font-family: arial;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
+
+.button {
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 5px; 10px;
 }
 
+#center {
+  display: block;
+  margin: auto;
+  width: 25%;
+  
+}
 
 </style>
 
@@ -47,12 +54,16 @@ a {
             <a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
                       <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
                     <a href="https://www.google.com/intl/en/about/products?tab=wh">Apps</a>
-                    <input type="button" value="Sign In">
+                    <input type="button" class ="button" value="Sign In">
                 </div>
-                       <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center">
+                       <div id="center">
+
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
            </div>
 
+           <div>
+               <center><input type="text" placeholder="Search"></center>
+           </div>
 
     </body>
 </html>
