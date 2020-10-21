@@ -26,15 +26,41 @@ a {
 .button {
     border: none;
     color: white;
-    background-color: blue;
-    padding: 5px; 10px;
+    background-color: #4385f7;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-weight:bold;
 }
 
 #center {
   display: block;
   margin: auto;
-  width: 25%;
+  padding-bottom: 20px;
+  width: 35%
   
+}
+
+#searchbutton {
+    display: block;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    border: none;
+    line-height: 34px;
+    border-radius: 2px;
+}
+
+#footer {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    word-spacing: 50px;
+    font-size: small;
+    text-align: center;
 }
 
 </style>
@@ -62,7 +88,16 @@ a {
            </div>
 
            <div>
-               <center><input type="text" placeholder="Search"></center>
+               <center><input type="text" placeholder="Search" style="width: 500px;"></center>
+           </div>
+
+           <div id="searchbutton">
+               <center><input type="button" value="Google Search">
+            <input type="button" value="I'm Feeling Lucky"></center>
+           </div>
+
+           <div id="footer">
+               Privacy Terms Settings Advertising Business
            </div>
 
     </body>
